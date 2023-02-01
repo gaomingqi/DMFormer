@@ -1,0 +1,11 @@
+opencv-python
+pycocotools
+imgaug
+einops
+transformers
+fvcore
+spacy
+timm
+prettytable
+ftfy
+tensorboard

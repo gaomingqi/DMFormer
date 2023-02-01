@@ -1,0 +1,10 @@
+__pycache__/
+build/
+dist/
+MultiScaleDeformableAttention.egg-info/
+runs/
+maskrcnn_benchmark.egg-info/
+*.so
+Annotations/
+*.zip
+output/
