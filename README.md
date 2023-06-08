@@ -30,5 +30,5 @@ python3 -m torch.distributed.launch --nproc_per_node=[Number of GPUs] --master_p
 python3 inference_ytvos.py --with_box_refine --binary --freeze_text_encoder --output_dir [Output Path] --resume [Checkpoint Path] --ngpu 1 --batch_size 1 --backbone swin_t_p4w7 --ytvos_path [Ref-YouTube-VOS Path] --use_glip --glip_checkpoint [GLIP checkpoint] --use_rmhca
 ```
 
-### Acknowledgements
+### Acknowledgement
 This work is based on [ReferFormer](https://github.com/wjn922/ReferFormer) and [GLIP](https://github.com/microsoft/GLIP). Thanks for the authors for their efforts!
